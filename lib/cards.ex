@@ -30,4 +30,10 @@ defmodule Cards do
 
   end
 
+  def deal(deck, hand_size) do
+
+    Enum.split(deck, hand_size)
+
+  end
+
 end
